@@ -1,56 +1,84 @@
-h2{
-
-  background-color: #ff80ff;
-  height: 100px;
-  width: 400px;
+body{
+  background-color: white;
+  font-family: times;
 
 }
 header{
-  background-color:  #ffff4d;
-  height: 100px;
+  background-color: white;
+  height: 40px;
   width: 100%;
-
+  text-align: center;
+  text-decoration: underline;
 }
 nav{
-
-  background-color: #85e085;
-  height: 100px;
-  width: 100%;
-
-
+  background-color: white;
+  height: 700px;
+  width: 15%;
+  text-align: left;
 }
 main{
-  background-color:  #ff9999;
-  height: 500px;
-  width: 70%;
-}
-  aside{
-    background-color:  #80bfff;
-    height: 500px;
-    width: 30%;
-  }
-  footer{
-    background-color:  #ff80ff;
-    height: 100px;
-    width: 100%;
-
-  }
-#mainwrapper{
-  display:flex;
-}
-#wrapper{
-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-@media only screen and (max-width: 600px){
-  #mainwrapper{
-    display:flex;
-    flex-direction: column;
-  }
-main{
-  width:100%;
+  background-color: white;
+  height: 700px;
+  width: 85%;
 }
 aside{
-  width:100%;
+  background-color: white;
+  height: 700px;
+  width: 0%;
+}
+
+footer{
+  background-color: white;
+  height: 100px;
+  width: 100%;
+}
+#mainwrapper{
+  display: flex;
+}
+#wrapper{
+  width: 100%;
+  margin-left: 0px;
+}
+@media only screen and (max-with: 600px){
+  #mainwrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  main{
+    width: 100%;
+  }
+  aside{
+    width: 100%;
+  }
+}
+p{
+  font-size: 15px;
+}
+
+a{
+  text-decoration:none;
+  color: Black;
+  }
+
+.btn:hover{
+    background-color: #a6a6a6;
+    color: #e0e0e0;
+  }
+.btn{
+    padding: 5px 5px;
+    border: none;
+    background-color: #e6e6e6;
+    color: black;
+    font-family: times;
+    border-radius: 40px;
+
+  }
+  #active{
+    background-color: #000000;
+    color: white;
+  }
+#links{
+font-size: 20px;
+text-decoration: underline;
+font-weight: 1000;
 }
